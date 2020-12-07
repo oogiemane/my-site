@@ -1,0 +1,125 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.wrapper{
+    max-width: 1170px;
+    margin: 0 auto;
+    
+    
+}
+
+.nav-line {
+    height: 110px;
+    background-color: #FFCD83;
+
+}
+.logo {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 36px;
+    
+}
+
+.nav{
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    
+    
+}
+
+.nav-items li {
+    padding-left: 50px;
+    font-size: 18px;
+    
+}
+
+.nav-items a:hover {
+    color: rgb(255, 255, 255);
+    transition: .2s;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+.kabinet  {
+    position: absolute;
+    right: 0;
+    
+    font-size: 18px;
+   /* line-height: 63px;*/
+   
+    
+    border: 0px solid #000000; /* Параметры рамки */
+    border-radius: 100px;
+    background: #ffffff; /* Цвет фона */
+    font-size: 18px; /* Размер текста */
+    padding: 15px 50px;
+}
+
+
+
+
+.welcome {
+    position: relative;
+    width: 100%;
+}
+
+.welcome_inner {
+    position: absolute;
+    top: 100px;
+}
+
+.h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;    
+}
+.dostavka {
+    position: absolute;
+    top: 260px;
+    font-size: 24px;
+    
+
+    color: #6D6D6D;
+}
+
+.button {
+    position: absolute;
+    top: 360px;
+    
+    border: 0px solid #000000; /* Параметры рамки */
+    border-radius: 100px;
+    background: #000000; /* Цвет фона */
+    font-size: 18px; /* Размер текста */
+    padding: 25px 100px;
+}
+
+.button:hover {
+    background: #4e4e4e;
+    transition: .2s;
+}
+
+.pass {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.rollswelcome {
+    position: absolute;
+    margin-left: 600px;
+}
